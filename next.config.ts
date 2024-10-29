@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     loader: "akamai",
     path: "",
+    unoptimized: true
   },
   assetPrefix: "./",
 };
