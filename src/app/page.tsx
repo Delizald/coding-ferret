@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { prefix } from "../../utils/prefix";
-import Navbar from "../app/components/navbar";
+import Navbar from "../app/components/Navbar";
 import SocialLinks from "../app/components/SocialLinks";
 
 export default function Home() {
