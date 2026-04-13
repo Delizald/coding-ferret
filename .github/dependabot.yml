@@ -6,6 +6,10 @@ updates:
       interval: weekly
       day: monday
     open-pull-requests-limit: 5
+    ignore:
+      # ESLint 10 is not yet supported by eslint-config-next
+      - dependency-name: eslint
+        versions: ["10.x", ">=10"]
     groups:
       dev-dependencies:
         dependency-type: development
