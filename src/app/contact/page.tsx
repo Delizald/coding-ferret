@@ -55,47 +55,6 @@ export default function ContactPage() {
           ))}
         </div>
 
-        <div className="border border-gray-800 rounded-xl p-6 bg-gray-900/40">
-          <h2 className="text-sm font-semibold uppercase tracking-widest text-green-400 mb-4">
-            Send a message
-          </h2>
-          <form className="space-y-4">
-            <div>
-              <label className="block text-xs text-gray-500 mb-1 uppercase tracking-widest">Name</label>
-              <input
-                type="text"
-                placeholder="Your name"
-                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-sm text-gray-200 placeholder-gray-600 focus:outline-none focus:border-green-400 transition"
-              />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-500 mb-1 uppercase tracking-widest">Email</label>
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-sm text-gray-200 placeholder-gray-600 focus:outline-none focus:border-green-400 transition"
-              />
-            </div>
-            <div>
-              <label className="block text-xs text-gray-500 mb-1 uppercase tracking-widest">Message</label>
-              <textarea
-                rows={4}
-                placeholder="What's on your mind?"
-                className="w-full bg-gray-800 border border-gray-700 rounded-lg px-4 py-2.5 text-sm text-gray-200 placeholder-gray-600 focus:outline-none focus:border-green-400 transition resize-none"
-              />
-            </div>
-            <p className="text-xs text-gray-600 italic">
-              Note: form submission not yet wired up — connect to an email service (e.g. Resend,
-              Formspree) when ready.
-            </p>
-            <button
-              type="submit"
-              className="bg-green-500 text-black px-6 py-2.5 rounded-lg font-semibold hover:bg-green-400 transition text-sm"
-            >
-              Send Message
-            </button>
-          </form>
-        </div>
       </div>
 
       <Footer />
