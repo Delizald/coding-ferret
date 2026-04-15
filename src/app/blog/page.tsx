@@ -1,44 +1,50 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Link from "next/link";
 
-const posts = [
-  {
-    slug: "placeholder-post-1",
-    title: "[Post title — placeholder]",
-    date: "2025-01-01",
-    summary:
-      "A short summary of what this post is about. Replace with your real article about .NET, Azure, microservices, or anything you want to share.",
-    tags: [".NET", "Azure"],
-  },
-  {
-    slug: "placeholder-post-2",
-    title: "[Post title — placeholder]",
-    date: "2025-01-01",
-    summary:
-      "Another placeholder post. Great topics: lessons learned from a project, a deep dive into event-driven architecture, or a guide on a tool you use.",
-    tags: ["Microservices", "Architecture"],
-  },
-  {
-    slug: "placeholder-post-3",
-    title: "[Post title — placeholder]",
-    date: "2025-01-01",
-    summary:
-      "A third placeholder. Think about what you know deeply that others would benefit from reading — that's your next post.",
-    tags: ["C#", "Best Practices"],
-  },
-];
+// import Link from "next/link";
+
+// const posts = [
+//   {
+//     slug: "placeholder-post-1",
+//     title: "[Post title — placeholder]",
+//     date: "2025-01-01",
+//     summary:
+//       "A short summary of what this post is about. Replace with your real article about .NET, Azure, microservices, or anything you want to share.",
+//     tags: [".NET", "Azure"],
+//   },
+//   {
+//     slug: "placeholder-post-2",
+//     title: "[Post title — placeholder]",
+//     date: "2025-01-01",
+//     summary:
+//       "Another placeholder post. Great topics: lessons learned from a project, a deep dive into event-driven architecture, or a guide on a tool you use.",
+//     tags: ["Microservices", "Architecture"],
+//   },
+//   {
+//     slug: "placeholder-post-3",
+//     title: "[Post title — placeholder]",
+//     date: "2025-01-01",
+//     summary:
+//       "A third placeholder. Think about what you know deeply that others would benefit from reading — that's your next post.",
+//     tags: ["C#", "Best Practices"],
+//   },
+// ];
 
 export default function BlogPage() {
   return (
     <main className="relative min-h-screen bg-gradient-to-b from-gray-900 to-black text-gray-100">
       <Navbar />
 
-      <div className="max-w-3xl mx-auto px-6 pt-32 pb-16">
-        <h1 className="text-4xl sm:text-5xl font-bold mb-2 text-green-400">Blog</h1>
+      <div className="max-w-3xl mx-auto px-6 pt-32 pb-16 flex flex-col items-center justify-center text-center">
+        <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-green-400">Blog</h1>
         <p className="text-gray-500 mb-12 text-sm uppercase tracking-widest">Thoughts & write-ups</p>
 
-        <div className="space-y-8">
+        <div className="border border-green-400/30 rounded-2xl px-12 py-16 bg-green-400/5">
+          <p className="text-3xl font-semibold text-green-400 mb-3">Coming Soon</p>
+          <p className="text-gray-400 text-sm">Posts are in the works. Check back later.</p>
+        </div>
+
+        {/* <div className="space-y-8">
           {posts.map((post) => (
             <article
               key={post.slug}
@@ -67,7 +73,7 @@ export default function BlogPage() {
 
         <div className="mt-12 text-center">
           <p className="text-gray-600 text-sm italic">More posts coming soon.</p>
-        </div>
+        </div> */}
       </div>
 
       <Footer />
