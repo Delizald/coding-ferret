@@ -13,6 +13,15 @@ const projects = [
     status: "In Progress",
   },
   {
+    title: "Apache + AIDE Provisioning",
+    description:
+      "Ansible playbooks to provision Apache on RHEL6 and lock down configuration changes using AIDE (Advanced Intrusion Detection Environment) for file integrity monitoring.",
+    tech: ["Ansible", "Shell", "Apache", "AIDE", "RHEL"],
+    github: "https://github.com/Delizald/aide-test",
+    live: null,
+    status: "Complete",
+  },
+  {
     title: "Just Monika — VSCode Extension",
     description:
       "A lighthearted VSCode extension featuring Monika from the visual novel Doki Doki Literature Club. Built for fun — it serves no serious purpose, and that's the point.",
