@@ -13,31 +13,13 @@ const projects = [
     status: "In Progress",
   },
   {
-    title: "[Project Title — placeholder]",
+    title: "Just Monika — VSCode Extension",
     description:
-      "A short description of what this project does, the problem it solves, and who it was built for. Replace with your real project details.",
-    tech: [".NET", "C#", "Azure", "SQL Server"],
-    github: null,
+      "A lighthearted VSCode extension featuring Monika from the visual novel Doki Doki Literature Club. Built for fun — it serves no serious purpose, and that's the point.",
+    tech: ["TypeScript", "VSCode Extension API"],
+    github: "https://github.com/Delizald/just-monika-vscode",
     live: null,
-    status: "Placeholder",
-  },
-  {
-    title: "[Project Title — placeholder]",
-    description:
-      "Another project placeholder. Add details about your open-source contributions, side projects, or notable work you've done at previous companies.",
-    tech: ["C#", "Microservices", "Docker"],
-    github: null,
-    live: null,
-    status: "Placeholder",
-  },
-  {
-    title: "[Project Title — placeholder]",
-    description:
-      "Placeholder for a third project. Could be a tool, library, API, or anything you've built that you're proud of.",
-    tech: ["Azure Functions", ".NET", "CosmosDB"],
-    github: null,
-    live: null,
-    status: "Placeholder",
+    status: "Complete",
   },
 ];
 
@@ -63,6 +45,8 @@ export default function ProjectsPage() {
                     className={`text-xs px-2 py-0.5 rounded-full border ${
                       project.status === "In Progress"
                         ? "border-green-400 text-green-400"
+                        : project.status === "Complete"
+                        ? "border-blue-400 text-blue-400"
                         : "border-gray-600 text-gray-500"
                     }`}
                   >
