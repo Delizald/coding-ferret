@@ -11,6 +11,7 @@ const links = [
   { name: "Skills", href: "/skills" },
   { name: "Projects", href: "/projects" },
   { name: "Certifications", href: "/certifications" },
+  { name: "Diving", href: "/diving" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];
