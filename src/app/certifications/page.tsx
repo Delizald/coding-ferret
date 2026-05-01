@@ -47,6 +47,17 @@ const certs: Cert[] = [
   { file: "cert-r-ggplot.jpg",            title: "R, ggplot, and Simple Linear Regression",          issuer: "Udemy",              year: "2017", category: "Data Science & ML" },
   { file: "cert-r-polynomial.jpg",        title: "Polynomial Regression, R, and ggplot",             issuer: "Udemy",              year: "2017", category: "Data Science & ML" },
   { file: "cert-r-training-sets.jpg",     title: "Training Sets, Test Sets, R, and ggplot",          issuer: "Udemy",              year: "2017", category: "Data Science & ML" },
+  { file: "cert-kaggle-intro-ml.png",           title: "Intro to Machine Learning",              issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-intermediate-ml.png",    title: "Intermediate Machine Learning",          issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-deep-learning.png",      title: "Intro to Deep Learning",                 issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-computer-vision.png",    title: "Computer Vision",                        issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-feature-engineering.png", title: "Feature Engineering",                  issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-ml-explainability.png",  title: "Machine Learning Explainability",        issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-data-cleaning.png",      title: "Data Cleaning",                          issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-data-visualization.png", title: "Data Visualization",                     issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-advanced-sql.png",       title: "Advanced SQL",                           issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-pandas.png",             title: "Pandas",                                 issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
+  { file: "cert-kaggle-ai-ethics.png",          title: "Intro to AI Ethics",                     issuer: "Kaggle", year: "2025", category: "Data Science & ML" },
 
   // Other
   { file: "cert-mongodb.jpg",             title: "MongoDB — The Complete Developer's Guide",         issuer: "Udemy",              year: "2019", category: "Other" },
