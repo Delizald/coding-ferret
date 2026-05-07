@@ -22,6 +22,15 @@ const projects = [
     status: "Complete",
   },
   {
+    title: "Unfold",
+    description:
+      "A computational toolkit for exploring HLA-B27 protein misfolding and drug discovery in Ankylosing Spondylitis. Uses AlphaFold 3 predictions to analyze misfolding-prone regions, compare AS-associated variants, and screen small molecules as stabilizing candidates.",
+    tech: ["Python", "AlphaFold 3", "py3Dmol", "UniProt", "PDB", "ChEMBL"],
+    github: "https://github.com/Delizald/Unfold",
+    live: null,
+    status: "In Progress",
+  },
+  {
     title: "Just Monika — VSCode Extension",
     description:
       "A lighthearted VSCode extension featuring Monika from the visual novel Doki Doki Literature Club. Built for fun — it serves no serious purpose, and that's the point.",
