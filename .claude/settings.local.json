@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node -e \"require\\('@tailwindcss/node'\\)\")"
+      "Bash(node -e \"require\\('@tailwindcss/node'\\)\")",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "WebFetch(domain:github.com)",
+      "Bash(Get-ChildItem -Path \"d:\\\\HPOmen\\\\Github\\\\coding-ferret\" -Force)",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "Bash(Format-Table -AutoSize)"
     ]
   }
 }

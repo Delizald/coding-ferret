@@ -3,6 +3,18 @@ import Footer from "../components/Footer";
 
 const experiences = [
   {
+    company: "Zurich Insurance",
+    role: "Software Engineer (.NET)",
+    period: "Jun 2026 – Present",
+    location: "Hybrid · Zapopan, Mexico",
+    description:
+      "Building software solutions for Zurich Insurance, a leading global insurance provider.",
+    highlights: [
+      "Currently onboarding and contributing to enterprise insurance systems",
+    ],
+    tech: [".NET", "C#", "Azure"],
+  },
+  {
     company: "EPAM",
     role: "Software Engineer (.NET)",
     period: "Nov 2025 – Mar 2026",
